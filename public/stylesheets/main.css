@@ -1,0 +1,26 @@
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption {
+    padding: 9px;
+}
+#deleteForm {
+    display: inline;
+}
+
+#deleteFormComment {
+    display: inline;
+}
+
+@media (min-width: 768px) {
+        .thumbnail img {
+            object-fit: cover;
+            height: 200px;
+            width: 100%;
+        }
+    }
